@@ -1,0 +1,16 @@
+language: android
+jdk: oraclejdk8
+sudo: false
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - tools
+    - build-tools-27.0.3
+    - android-25
+    - add-on
+    - extra-android-m2repository
+    - extra-android-m2repository
+
+script: ./gradlew assemble
