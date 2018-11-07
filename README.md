@@ -1,5 +1,8 @@
 # WeatherAQIChart
 
+![image](https://travis-ci.org/kunsongjack/WeatherChart.svg?branch=master)
+
+
 这个是用来显示天气AQI值的控件
 
 效果图如下:
